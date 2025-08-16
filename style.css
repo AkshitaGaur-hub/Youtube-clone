@@ -1,0 +1,262 @@
+.new {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+}
+
+.box1 {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    column-gap: 5vw;
+    text-size-adjust: 2.5vw;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    cursor: pointer;
+    font-size: 2.5vw;
+}
+
+.material-symbols-outlined {
+    font-size: 2.5vw;
+    color: black;
+    transition: background 0.2s, box-shadow 0.2s;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.material-symbols-outlined:hover {
+    background: #f2f2f2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    color: #212121;
+}
+
+.box2 {
+    /* background-color: pink; */
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    gap: 9vw;
+
+}
+
+.yt-spec-icon-shape {
+    display: flex;
+    width: 18vw;
+    height: 3vw;
+}
+
+.pc {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    width: 100%;
+    gap:8px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 50px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    padding: 0 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    font-size: 1rem;
+    background: transparent;
+    border-radius: 40px 0 0 40px;
+}
+
+button[type="search"] {
+    border: #ccc solid 1px;
+    background: #f8f8f8;
+    border-radius: 0 40px 40px 0;
+    padding: 0 16px;
+    cursor: pointer;
+    /* transition: background 0.2s; */
+    display: flex;
+    align-items: center;
+}
+
+button[type="search"]:hover {
+    background: #e6e6e6;
+}
+/* ...existing code... */
+.trademark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 12px; */
+    background: #f8f8f8;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* transition: background 0.2s, box-shadow 0.2s; */
+}
+
+.trademark .material-symbols-outlined {
+    font-size: 2vw;
+    color: #212121;
+    padding: 0;
+}
+
+.trademark:hover {
+    background: #f2f2f2;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.create{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f8f8;
+    width: 8vw;
+    height: 7vh;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #212121;
+    font-size: 20px;
+}
+.create:hover{
+    background: #f2f2f2;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.box3{
+    display: flex;
+    flex-direction: row;
+    
+}
+.icon-btn{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: center;
+    width: 7vw;
+    height: 7vh;
+    gap: 5px;
+}
+.content_box{
+    
+}
+@media (max-width: 900px) {
+    .trademark {
+        width: 44px;
+        height: 44px;
+        margin-left: 8px;
+    }
+    .trademark .material-symbols-outlined {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 600px) {
+    .trademark {
+        width: 36px;
+        height: 36px;
+        margin-left: 4px;
+    }
+    .trademark .material-symbols-outlined {
+        font-size: 22px;
+    }
+}
+ 
+.notifications .material-symbols-outlined{
+    font-size: 2vw;
+    padding: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+    .new {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .yt-spec-icon-shape {
+        width: 30vw;
+        height: 7vw;
+    }
+
+    .logo {
+        flex-direction: row;
+        gap: 5vw;
+        font-size: 5vw;
+    }
+
+    .material-symbols-outlined {
+        font-size: 5vw;
+        padding: 12px;
+    }
+
+    .search {
+        width: 95%;
+        margin: 8px auto;
+        padding: 0 4px;
+    }
+
+    .trademark {
+        margin: 0 8px;
+        margin-bottom: 0;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .yt-spec-icon-shape {
+        width: 50vw;
+        height: 10vw;
+    }
+
+    .logo {
+        gap: 3vw;
+        font-size: 7vw;
+    }
+
+    .material-symbols-outlined {
+        font-size: 7vw;
+        padding: 8px;
+    }
+
+    .search {
+        width: 100%;
+        margin: 8px 0;
+        padding: 0 2px;
+    }
+
+    .input {
+        font-size: 0.9rem;
+        padding: 8px 8px;
+    }
+
+    .trademark {
+        margin: 0 4px;
+        border-radius: 50%;
+    }
+}
