@@ -8,7 +8,7 @@
     /* background-color: red; */
     display: flex;
     justify-content: center;
-    width: 5%;
+    width: 4%;
     column-gap: 5vw;
     text-size-adjust: 2.5vw;
 }
@@ -16,7 +16,7 @@
 .logo {
     display: flex;
     flex-direction: column;
-    gap: 2vw;
+    gap: 1.5vw;
     cursor: pointer;
     font-size: 2.5vw;
 }
@@ -36,17 +36,19 @@
 }
 
 .box2 {
-    /* background-color: pink; */
-    width: 75%;
+    width: 78%;
     display: flex;
-    justify-content: center;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+
+    /* align-items: center; */
     gap: 9vw;
 
 }
 
 .yt-spec-icon-shape {
     display: flex;
-    width: 18vw;
+    width: 11vw;
     height: 3vw;
 }
 
@@ -54,7 +56,7 @@
     display: flex;
     flex-direction: row;
     align-items:flex-start;
-    width: 100%;
+    width: 55vw;
     gap:8px;
 }
 
@@ -68,7 +70,7 @@
     border-radius: 50px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
     padding: 0 0px;
-    width: 100%;
+    width: 80%;
     overflow: hidden;
 }
 
@@ -130,7 +132,7 @@ button[type="search"]:hover {
     border-radius: 20px;
     cursor: pointer;
     color: #212121;
-    font-size: 20px;
+    font-size: 15px;
 }
 .create:hover{
     background: #f2f2f2;
@@ -140,6 +142,7 @@ button[type="search"]:hover {
 .box3{
     display: flex;
     flex-direction: row;
+    gap: 10px;
     
 }
 .icon-btn{
@@ -155,8 +158,10 @@ button[type="search"]:hover {
     height: 7vh;
     gap: 5px;
 }
-.content_box{
-    
+.content_box {
+    width: 100%;
+    margin-top: 16px;
+    /* Add more styles as needed */
 }
 @media (max-width: 900px) {
     .trademark {
