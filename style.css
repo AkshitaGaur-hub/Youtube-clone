@@ -55,9 +55,9 @@
 .pc {
     display: flex;
     flex-direction: row;
-    align-items:flex-start;
+    align-items: flex-start;
     width: 55vw;
-    gap:8px;
+    gap: 8px;
 }
 
 .search {
@@ -98,6 +98,7 @@ button[type="search"] {
 button[type="search"]:hover {
     background: #e6e6e6;
 }
+
 /* ...existing code... */
 .trademark {
     display: flex;
@@ -120,9 +121,10 @@ button[type="search"]:hover {
 
 .trademark:hover {
     background: #f2f2f2;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
-.create{
+
+.create {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,34 +136,66 @@ button[type="search"]:hover {
     color: #212121;
     font-size: 15px;
 }
-.create:hover{
+
+.create:hover {
     background: #f2f2f2;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.box3{
+.box3 {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    
+
 }
-.icon-btn{
+
+.icon-btn {
     background: transparent;
     border: none;
     outline: none;
     cursor: pointer;
     display: flex;
     flex-direction: row;
-    align-items: center;    
+    align-items: center;
     justify-content: center;
     width: 7vw;
     height: 7vh;
     gap: 5px;
 }
+
 .content_box {
-    width: 100%;
-    margin-top: 16px;
-    /* Add more styles as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    border-radius: 1vw;
+    height: 25vh;
+    border: 1px solid #ccc;
+    margin: 26px 2px;
+  
+}
+h3 {
+    margin-bottom: 4px; /* or your preferred value */
+}
+
+p {
+    margin-top: 2px; /* or your preferred value */
+}
+.up{
+    background: #e9e9e9;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    width: 90%;
+    cursor: pointer ;
+}
+.up:hover {
+    background: #dcdcdc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 @media (max-width: 900px) {
     .trademark {
@@ -169,6 +203,7 @@ button[type="search"]:hover {
         height: 44px;
         margin-left: 8px;
     }
+
     .trademark .material-symbols-outlined {
         font-size: 28px;
     }
@@ -180,12 +215,13 @@ button[type="search"]:hover {
         height: 36px;
         margin-left: 4px;
     }
+
     .trademark .material-symbols-outlined {
         font-size: 22px;
     }
 }
- 
-.notifications .material-symbols-outlined{
+
+.notifications .material-symbols-outlined {
     font-size: 2vw;
     padding: 5px;
 }
